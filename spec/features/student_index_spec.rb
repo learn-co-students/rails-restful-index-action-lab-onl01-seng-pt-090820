@@ -15,6 +15,7 @@ describe 'Multiple students are shown' do
 
     visit "/students"
 
-    assert_text("Daenerys", "Lindsey")
+    assert_text('Daenerys Targaryen')
+    assert_text('Lindsey Stirling')
   end
 end
